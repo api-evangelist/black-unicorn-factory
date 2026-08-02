@@ -1,0 +1,88 @@
+generated: '2026-08-02'
+method: probed
+source: live HTTP probes of every Black Unicorn Factory host
+summary: >-
+  No /.well-known/ discovery document is published on any Black Unicorn Factory
+  host. Every RFC 8615 path probed returned 404 (the WordPress catch-all, served
+  as text/html), including the A2A agent card at both the canonical
+  /.well-known/agent-card.json and the legacy /.well-known/agent.json. Recorded
+  as negative evidence so re-runs do not re-probe blind.
+hosts:
+- host: blackunicornfactory.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: followmeforequity.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+contract_discovery:
+  summary: >-
+    Full STEP 0b contract discovery run against every Black Unicorn Factory host.
+    No OpenAPI, Swagger, GraphQL, AsyncAPI, MCP, or A2A contract exists. The only
+    machine-readable surface found is the incidental WordPress REST API root at
+    https://blackunicornfactory.com/wp-json/ (HTTP 200), which is CMS plumbing
+    exposed by the marketing site's WordPress install (wp/v2 plus Elementor,
+    Astra, Akismet, LiteSpeed and The Events Calendar plugin namespaces) — not a
+    product API. It is deliberately NOT registered as an api[] entry, because
+    doing so would misrepresent a content-management endpoint as a company API
+    offering.
+  probes:
+  - url: https://blackunicornfactory.com/openapi.json
+    status: 404
+  - url: https://blackunicornfactory.com/openapi.yaml
+    status: 404
+  - url: https://blackunicornfactory.com/swagger.json
+    status: 404
+  - url: https://blackunicornfactory.com/api-docs
+    status: 404
+  - url: https://blackunicornfactory.com/docs
+    status: 404
+  - url: https://blackunicornfactory.com/llms.txt
+    status: 404
+  - url: https://blackunicornfactory.com/wp-json/
+    status: 200
+    content_type: application/json
+    note: WordPress REST API root; 338 routes, 24 plugin namespaces; not a product API
+  - url: https://api.blackunicornfactory.com/
+    status: 0
+    note: host does not resolve
+  - url: https://followmeforequity.com/openapi.json
+    status: 404
+  - url: https://followmeforequity.com/openapi.yaml
+    status: 404
+  - url: https://followmeforequity.com/swagger.json
+    status: 404
+  - url: https://followmeforequity.com/api-docs
+    status: 404
+  - url: https://followmeforequity.com/docs
+    status: 404
+  - url: https://followmeforequity.com/llms.txt
+    status: 404
+x-evidence:
+  fetched: '2026-08-02'
+  method: curl -sS -o /dev/null -w '%{http_code}' -L

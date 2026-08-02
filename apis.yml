@@ -1,17 +1,34 @@
 aid: black-unicorn-factory
 name: Black Unicorn Factory
-description: 'Black Unicorn Factory is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Black Unicorn Factory (BUF) is a Los Angeles based pre-IPO business accelerator
+  that prepares companies led by founders from underrepresented communities for direct
+  listings on national stock exchanges, positioning equity rather than debt as the
+  route to capital. Its programs run a four-step readiness pathway — foundation and
+  readiness assessment, compliance and corporate structure, SEC filing and disclosure,
+  and market readiness — alongside the New Black Wall Street pre-IPO program and the
+  Follow Me For Equity (FMFE) platform, an iOS and Android application through which
+  individuals earn stock in participating pre-IPO companies by completing verified
+  social engagement tasks instead of investing cash. Black Unicorn Factory is a private
+  company whose shares appear on secondary marketplaces; it publishes no public API,
+  developer portal, SDKs, or machine-readable API contract.'
 url: https://raw.githubusercontent.com/api-evangelist/black-unicorn-factory/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
-x-tier-reason: harvest
+x-tier-reason: no-public-api-surface
+image: https://blackunicornfactory.com/wp-content/uploads/2022/01/unicorn-200x200.png
 specificationVersion: '0.20'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
+- Financial Services
+- Venture Capital
+- Pre-IPO
+- Startup Accelerator
+- Direct Listing
+- Equity
+- Private Markets
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +37,35 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://forgeglobal.com/black-unicorn-factory_stock/
+  url: https://blackunicornfactory.com/
+- type: About
+  url: https://blackunicornfactory.com/about-us/
+- type: Blog
+  url: https://blackunicornfactory.com/blog/
+- type: News
+  url: https://blackunicornfactory.com/news/
+- type: Press
+  url: https://blackunicornfactory.com/press-release/
+- type: Events
+  url: https://blackunicornfactory.com/events/
+- type: Investors
+  url: https://blackunicornfactory.com/our-investors/
+- type: Support
+  url: https://blackunicornfactory.com/contact/
+- type: SignUp
+  url: https://followmeforequity.com/student-registration/
+- type: Login
+  url: https://followmeforequity.com/affiliate-area/
+- type: TermsOfService
+  url: https://blackunicornfactory.com/terms-and-condtiion/
+- type: PrivacyPolicy
+  url: https://blackunicornfactory.com/privacy-policy/
+- type: DomainSecurity
+  url: security/black-unicorn-factory-domain-security.yml
+- type: LLMsTxt
+  url: llms/black-unicorn-factory-llms.txt
+x-enrichment:
+  date: '2026-08-02'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

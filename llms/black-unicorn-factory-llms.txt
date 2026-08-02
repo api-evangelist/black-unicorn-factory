@@ -1,0 +1,48 @@
+# Black Unicorn Factory
+
+> Black Unicorn Factory (BUF) is a Los Angeles based pre-IPO business accelerator that prepares companies led by founders from underrepresented communities for direct listings on national stock exchanges, positioning equity rather than debt as the route to capital. It publishes no public API, developer portal, SDKs, or machine-readable API contract.
+
+## About
+
+- [Website](https://blackunicornfactory.com/): Company home.
+- [About Us](https://blackunicornfactory.com/about-us/): Mission and the funding gap BUF addresses.
+- [Our Investors](https://blackunicornfactory.com/our-investors/): Investor information.
+- [Contact](https://blackunicornfactory.com/contact/): info@blackunicornfactory.com, +1 (310) 362-6999, Los Angeles, CA.
+
+## Programs
+
+- [New Black Wall Street Pre-IPO Program](https://blackunicornfactory.com/new-black-wall-street/): The pre-IPO direct listing acceleration program.
+- [Follow Me For Equity](https://followmeforequity.com/): Platform (iOS and Android apps) where individuals earn equity in pre-IPO companies by completing verified social engagement tasks instead of investing cash.
+- [Follow Me For Equity registration](https://followmeforequity.com/student-registration/): Sign up for the program.
+- [The Wealth Gap App](https://blackunicornfactory.com/wga/): Companion application.
+- [Stock Value Calculator](https://blackunicornfactory.com/stock-value-calculator/): Tool for estimating position value.
+
+## Updates
+
+- [Blog](https://blackunicornfactory.com/blog/)
+- [News](https://blackunicornfactory.com/news/)
+- [Press Releases](https://blackunicornfactory.com/press-release/)
+- [Events](https://blackunicornfactory.com/events/)
+- [We Have Appeared In](https://blackunicornfactory.com/we-have-appeared-in/): Media coverage.
+
+## Legal
+
+- [Terms and Conditions](https://blackunicornfactory.com/terms-and-condtiion/)
+- [Privacy Policy](https://blackunicornfactory.com/privacy-policy/)
+
+## APIs
+
+Black Unicorn Factory publishes no public API. As of 2026-08-02 there is no
+OpenAPI, Swagger, GraphQL, AsyncAPI, MCP server, A2A agent card, developer
+portal, SDK, or `/.well-known/` discovery document on any company host
+(blackunicornfactory.com, followmeforequity.com). The only machine-readable
+endpoint present is the incidental WordPress REST API root at
+https://blackunicornfactory.com/wp-json/, which is content-management plumbing
+for the marketing site rather than a product API, and is therefore not
+catalogued as a Black Unicorn Factory API.
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/black-unicorn-factory/refs/heads/main/apis.yml): APIs.json 0.20 index for this provider.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/black-unicorn-factory/refs/heads/main/security/black-unicorn-factory-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/black-unicorn-factory/refs/heads/main/well-known/black-unicorn-factory-well-known.yml): Contract-discovery evidence.

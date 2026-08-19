@@ -17,7 +17,7 @@ x-source: harvest:secondary-market
 x-tier: stub
 x-tier-reason: no-public-api-surface
 image: https://blackunicornfactory.com/wp-content/uploads/2022/01/unicorn-200x200.png
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-08-02'
 modified: '2026-08-02'
 tags:

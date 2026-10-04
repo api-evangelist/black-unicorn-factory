@@ -45,7 +45,7 @@ created: '2026-08-02'
 modified: '2026-08-02'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Venture Capital
 - Pre-IPO
 - Startup Accelerator
@@ -61,6 +61,7 @@ tags_raw:
 - Direct Listing
 - Equity
 - Private Markets
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane

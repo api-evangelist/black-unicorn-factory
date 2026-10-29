@@ -64,27 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Black Unicorn Factory (BUF) is a Los Angeles based pre-IPO business accelerator that prepares companies led by founders from underrepresented communities for direct listings on national stock exchanges, positioning equity rather than debt as the route to capital. Its programs run a four-step readiness pathway — foundation and readiness assessment, compliance and corporate structure, SEC filing and disclosure, and market readiness — alongside the New Black Wall Street pre-IPO program and the Follow Me For Equity (FMFE) platform, an iOS and Android application through which individuals earn stock in participating pre-IPO companies by completing verified social engagement tasks instead of investing cash.
+Black Unicorn Factory (BUF) is a Los Angeles based pre-IPO business accelerator that prepares companies led by founders from underrepresented communities for direct listings on national stock exchanges, positioning equity rather than debt as the route to capital. Its programs run a four-step readiness pathway — foundation and readiness assessment, compliance and corporate structure, SEC filing and disclosure, and market readiness — alongside the New Black Wall Street pre-IPO program and the Follow Me For Equity (FMFE) platform, an iOS and Android application through which individuals earn stock in participating pre-IPO companies by completing verified social engagement tasks instead of investing cash. Black Unicorn Factory is a private company whose shares appear on secondary marketplaces; it publishes no public API, developer portal, SDKs, or machine-readable API contract.
 
-- Website: https://blackunicornfactory.com/
-- Follow Me For Equity: https://followmeforequity.com/
-- Secondary market listing: https://forgeglobal.com/black-unicorn-factory_stock/
+**Areas:** Company · Financial Services · Venture Capital · Pre-IPO · Startup Accelerator · Direct Listing · Equity · Private Markets
 
-## API surface
+## Black Unicorn Factory on APIs.io
 
-**Black Unicorn Factory publishes no public API.** As of 2026-08-02 a full contract-discovery
-pass across every company host found no OpenAPI, Swagger, GraphQL, AsyncAPI, MCP server,
-A2A agent card, developer portal, SDK, CLI, or `/.well-known/` discovery document. The only
-machine-readable endpoint present is the incidental WordPress REST API root at
-`https://blackunicornfactory.com/wp-json/` (HTTP 200) — CMS plumbing for the marketing
-site, not a product API — so it is deliberately not catalogued as a company API.
+Everything profiled for Black Unicorn Factory is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/black-unicorn-factory/](https://apis.io/providers/black-unicorn-factory/)** — or go straight to one of the APIs or properties below.
 
-Probe evidence is recorded in `well-known/black-unicorn-factory-well-known.yml`.
+### Published properties
 
-## Artifacts
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-| Artifact | File | Method |
-|---|---|---|
-| Well-known / contract discovery | `well-known/black-unicorn-factory-well-known.yml` | probed |
-| Domain security | `security/black-unicorn-factory-domain-security.yml` | probed |
-| llms.txt | `llms/black-unicorn-factory-llms.txt` | generated |
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Black Unicorn Factory Domain Security](https://apis.io/security/black-unicorn-factory/black-unicorn-factory-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://blackunicornfactory.com/)
+- [Sign up](https://followmeforequity.com/student-registration/)
+- [Support](https://blackunicornfactory.com/contact/)
+- [Blog](https://blackunicornfactory.com/blog/)
+- [Terms of service](https://blackunicornfactory.com/terms-and-condtiion/)
+- [Privacy policy](https://blackunicornfactory.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 13.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/black-unicorn-factory/](https://apis.io/providers/black-unicorn-factory/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Black Unicorn Factory: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/black-unicorn-factory/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
